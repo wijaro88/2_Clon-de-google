@@ -1,0 +1,87 @@
+*{
+    text-align: center;
+    font-size: 14px;font-family: arial,sans-serif;color: #202124;
+    /* padding: 1%; */
+}
+.tipo_pag{
+    display: flex;flex-direction: column;height: 100%;
+}
+.alignDerecha{
+    text-align: right;
+    display: block;
+}
+.alignDerechaSeg{
+    display: block;
+    float: right;
+}
+.contenedorHeader{
+    /* padding-top: 12%; */
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    font: 13px Roboto,Arial,sans-serif;
+    /* padding: 2px 2px 2px 2px; */
+}
+.Sr{
+    padding: 5px 5px 5px;
+    align-items: center;
+}
+.Srtop{
+    padding-inline-start: 1%;
+    display: block;
+}
+#logo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedorImg{
+    padding-top: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bot-bus{
+    display: inline-block;
+    padding: 1% 0 0 0;
+}
+.ali{
+    display: inline;flex-direction: row;align-items: center;
+padding-block: 10px;
+}
+.sizCaja{
+    padding-top: 2%;
+    /* width: 20px; */
+    /* height: 15px; */
+}
+.Colo{
+    color: #4d5156; display: inline-block;line-height: 28px;
+    padding: 10px 0 420px 3px;
+
+}
+.botCol{
+    border-top: 1px solid #dadce0;
+    display: flex;
+    padding: 15px 30px;border-bottom: 1px solid #dadce0;font-size: 15px; color:#70757a; justify-content: flex-start;
+
+}
+.botc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.aliiz{
+    display: flex;
+    justify-content:space-between;
+}
+.color2{
+    color: #70757a;
+}
+.fdw{
+    position: relative;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    padding-inline-end: 1px;
+}
